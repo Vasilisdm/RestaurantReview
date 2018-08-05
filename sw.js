@@ -1,5 +1,5 @@
 let cacheName = 'v1';
-let urlForCaching = [
+let urlsForCaching = [
     "./",
     "./swRegistration.js",
     "index.html",
@@ -20,4 +20,12 @@ let urlForCaching = [
     "js/dbhelper.js",
     "js/main.js",
     "js/restaurant_info.js",
-]
+];
+
+self.addEventListener('install',function(event){
+    event.waitUntil(
+        caches.open(cacheName).then(function(cache){
+            return cache.addAll(urlsForCaching);
+        })
+    );
+});
