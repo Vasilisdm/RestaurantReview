@@ -1,1 +1,14 @@
 @charset "utf-8";
+
+@media (max-width: 993px) { 
+
+    #restaurant-maincontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inside #map-container {
+        width: auto;
+    }
+
+}
