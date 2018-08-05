@@ -1,7 +1,7 @@
 let cacheName = 'v1';
 let urlsForCaching = [
     "./",
-    "./swRegistration.js",
+    "swRegistration.js",
     "index.html",
     "restaurant.html",
     "css/styles.css",
