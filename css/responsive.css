@@ -20,4 +20,8 @@
         padding: 20px 0;
     }
 
+    nav h1 a {
+        letter-spacing: 7px;
+    }
+
 }
