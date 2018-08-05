@@ -204,8 +204,8 @@ nav h1 a {
 }
 .inside #map {
   background-color: #ccc;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
 }
 .inside #footer {
   bottom: 0;
